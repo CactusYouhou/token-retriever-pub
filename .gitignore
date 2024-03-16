@@ -1,0 +1,10 @@
+/.idea
+/node_modules
+/logs
+/coverage
+pinksale-bot-linux
+spent
+build
+token_retriever.config
+pkgMac.cmd
+token_retriever.20240120

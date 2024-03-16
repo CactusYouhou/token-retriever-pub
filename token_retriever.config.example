@@ -1,0 +1,28 @@
+# Define the targeted blockchain
+# Possibles values are 
+# - bsc, bsc_test
+# - avax, avax_test
+# - fantom, fantom_test, 
+# - arbitrum, arbitrum_test, 
+# - polygon, polygon_test, 
+# - eth, goerli
+
+TARGET_CHAIN=bsc_test
+
+# Pkeys of the wallets you want to retrieve funds from
+# The configuration must not have holes in the x of wallet.x
+
+wallet.1 = <private key of the wallet>
+wallet.2 = <private key of the wallet>
+wallet.3 = <private key of the wallet>
+wallet.4 = <private key of the wallet>
+
+wallet.5 = <private key of the wallet>
+wallet.6 = <private key of the wallet>
+wallet.7 = <private key of the wallet>
+wallet.8 = <private key of the wallet>
+wallet.9 = <private key of the wallet>
+wallet.10 = <private key of the wallet>
+ 
+#Levels [debug | log | warn | error]
+LOG_LEVEL=log
